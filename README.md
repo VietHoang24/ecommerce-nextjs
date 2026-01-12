@@ -1,16 +1,10 @@
-# AccountMart frontend build
-
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+# AccountMart
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/leowellbeing-1318s-projects/v0-account-mart-frontend-build)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/nWpwLolnxc7)
 
 ## Overview
 
 AccountMart is an e-commerce application specializing in selling premium digital accounts such as Netflix, Canva, Cursor, Google Veo 3, and many other services. The application is built with Next.js 16 and React 19, providing a fast and automated shopping experience.
-
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
 ## 🛠️ Technology Stack
 
@@ -142,16 +136,3 @@ pnpm dev
 Your project is live at:
 
 **[https://vercel.com/leowellbeing-1318s-projects/v0-account-mart-frontend-build](https://vercel.com/leowellbeing-1318s-projects/v0-account-mart-frontend-build)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/nWpwLolnxc7](https://v0.app/chat/nWpwLolnxc7)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
