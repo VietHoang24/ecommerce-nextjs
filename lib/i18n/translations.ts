@@ -1,0 +1,351 @@
+export const translations = {
+  vi: {
+    // Common
+    common: {
+      loading: "Đang tải...",
+      error: "Đã xảy ra lỗi",
+      save: "Lưu",
+      cancel: "Hủy",
+      delete: "Xóa",
+      edit: "Sửa",
+      view: "Xem",
+      search: "Tìm kiếm",
+      all: "Tất cả",
+      back: "Quay lại",
+      continue: "Tiếp tục",
+      confirm: "Xác nhận",
+      close: "Đóng",
+    },
+    // Navigation
+    nav: {
+      services: "Dịch vụ",
+      pricing: "Bảng giá",
+      faq: "FAQ",
+      login: "Đăng nhập",
+      logout: "Đăng xuất",
+      profile: "Hồ sơ cá nhân",
+      myServices: "Dịch vụ của tôi",
+      orders: "Đơn hàng",
+      wallet: "Nạp tiền",
+      cart: "Giỏ hàng",
+    },
+    // Hero Section
+    hero: {
+      badge: "Giao dịch tự động, nhận ngay tài khoản",
+      title: "Mua tài khoản dịch vụ số",
+      titleHighlight: "nhanh chóng & uy tín",
+      description:
+        "AccountMart cung cấp tài khoản Netflix, Canva, Cursor, ChatGPT và nhiều dịch vụ khác với giá tốt nhất. Thanh toán dễ dàng, nhận tài khoản tự động trong vài giây.",
+    },
+    // Features
+    features: {
+      autoDelivery: "Giao hàng tự động",
+      autoDeliveryDesc: "Nhận tài khoản ngay sau khi thanh toán thành công",
+      security: "Bảo mật cao",
+      securityDesc: "Thông tin tài khoản được mã hóa và bảo vệ",
+      support: "Hỗ trợ 24/7",
+      supportDesc: "Đội ngũ support luôn sẵn sàng hỗ trợ bạn",
+      payment: "Nhiều phương thức",
+      paymentDesc: "Hỗ trợ Cpay, Stripe và nhiều cổng thanh toán",
+    },
+    // Services
+    services: {
+      title: "Dịch vụ nổi bật",
+      description: "Lựa chọn từ hàng trăm dịch vụ premium với nhiều gói linh hoạt phù hợp nhu cầu của bạn",
+      addToCart: "Thêm vào giỏ",
+      stock: "Còn hàng",
+      outOfStock: "Hết hàng",
+    },
+    // Cart
+    cart: {
+      title: "Giỏ hàng",
+      continueShopping: "Tiếp tục mua sắm",
+      empty: "Giỏ hàng trống",
+      emptyDesc: "Bạn chưa có sản phẩm nào trong giỏ hàng",
+      browseServices: "Xem dịch vụ",
+      coupon: "Mã giảm giá",
+      couponPlaceholder: "Nhập mã giảm giá",
+      apply: "Áp dụng",
+      subtotal: "Tạm tính",
+      discount: "Giảm giá",
+      total: "Tổng cộng",
+      checkout: "Thanh toán",
+    },
+    // Checkout
+    checkout: {
+      title: "Xác nhận thanh toán",
+      orderSummary: "Tóm tắt đơn hàng",
+      paymentMethod: "Phương thức thanh toán",
+      walletPayment: "Thanh toán bằng ví",
+      currentBalance: "Số dư hiện tại",
+      totalAmount: "Tổng thanh toán",
+      remainingBalance: "Số dư còn lại",
+      insufficientBalance: "Số dư không đủ",
+      topupNow: "Nạp tiền ngay",
+      confirmPayment: "Xác nhận thanh toán",
+      processing: "Đang xử lý...",
+    },
+    // Orders
+    orders: {
+      title: "Đơn hàng của tôi",
+      empty: "Chưa có đơn hàng",
+      emptyDesc: "Bạn chưa có đơn hàng nào",
+      viewDetails: "Xem chi tiết",
+      orderId: "Mã đơn hàng",
+      orderDate: "Ngày đặt",
+      status: {
+        pending: "Chờ xử lý",
+        completed: "Hoàn thành",
+        failed: "Thất bại",
+        processing: "Đang xử lý",
+      },
+    },
+    // Order Detail
+    orderDetail: {
+      title: "Chi tiết đơn hàng",
+      accountInfo: "Thông tin tài khoản",
+      email: "Email",
+      password: "Mật khẩu",
+      copySuccess: "Đã copy!",
+      backToOrders: "Quay lại đơn hàng",
+    },
+    // My Services
+    myServices: {
+      title: "Dịch vụ của tôi",
+      empty: "Chưa có dịch vụ",
+      emptyDesc: "Bạn chưa có dịch vụ nào đang hoạt động",
+      browseServices: "Xem dịch vụ",
+      viewCredentials: "Xem thông tin",
+      renew: "Gia hạn",
+      expiresIn: "Hết hạn trong",
+      days: "ngày",
+      expired: "Đã hết hạn",
+    },
+    // Profile
+    profile: {
+      title: "Hồ sơ cá nhân",
+      personalInfo: "Thông tin cá nhân",
+      fullName: "Họ và tên",
+      email: "Email",
+      phone: "Số điện thoại",
+      transactionHistory: "Lịch sử giao dịch",
+      noTransactions: "Chưa có giao dịch nào",
+    },
+    // Wallet
+    wallet: {
+      title: "Nạp tiền",
+      balance: "Số dư ví",
+      topup: "Nạp tiền",
+      selectAmount: "Chọn số tiền",
+      customAmount: "Nhập số tiền khác",
+      paymentMethod: "Phương thức thanh toán",
+      cpay: "Cpay (Việt Nam)",
+      stripe: "Stripe (Quốc tế)",
+      proceed: "Tiến hành nạp tiền",
+      transactionHistory: "Lịch sử giao dịch",
+    },
+    // Login
+    login: {
+      title: "Đăng nhập",
+      subtitle: "Đăng nhập để truy cập tài khoản của bạn",
+      googleLogin: "Đăng nhập với Google",
+      or: "hoặc",
+      emailLabel: "Email",
+      passwordLabel: "Mật khẩu",
+      forgotPassword: "Quên mật khẩu?",
+      noAccount: "Chưa có tài khoản?",
+      register: "Đăng ký ngay",
+      terms: "Bằng việc đăng nhập, bạn đồng ý với",
+      termsLink: "Điều khoản sử dụng",
+      and: "và",
+      privacyLink: "Chính sách bảo mật",
+    },
+    // Footer
+    footer: {
+      description:
+        "AccountMart - Nền tảng cung cấp tài khoản dịch vụ số uy tín. Giao dịch nhanh chóng, tự động, giá cả cạnh tranh.",
+      links: "Liên kết",
+      legal: "Pháp lý",
+      terms: "Điều khoản sử dụng",
+      privacy: "Chính sách bảo mật",
+      contact: "Liên hệ",
+      copyright: "All rights reserved.",
+    },
+  },
+  en: {
+    // Common
+    common: {
+      loading: "Loading...",
+      error: "An error occurred",
+      save: "Save",
+      cancel: "Cancel",
+      delete: "Delete",
+      edit: "Edit",
+      view: "View",
+      search: "Search",
+      all: "All",
+      back: "Back",
+      continue: "Continue",
+      confirm: "Confirm",
+      close: "Close",
+    },
+    // Navigation
+    nav: {
+      services: "Services",
+      pricing: "Pricing",
+      faq: "FAQ",
+      login: "Login",
+      logout: "Logout",
+      profile: "Profile",
+      myServices: "My Services",
+      orders: "Orders",
+      wallet: "Top-up",
+      cart: "Cart",
+    },
+    // Hero Section
+    hero: {
+      badge: "Automatic delivery, instant account access",
+      title: "Buy digital service accounts",
+      titleHighlight: "fast & reliable",
+      description:
+        "AccountMart provides Netflix, Canva, Cursor, ChatGPT and many other accounts at the best prices. Easy payment, automatic account delivery in seconds.",
+    },
+    // Features
+    features: {
+      autoDelivery: "Auto Delivery",
+      autoDeliveryDesc: "Get your account right after successful payment",
+      security: "High Security",
+      securityDesc: "Account information is encrypted and protected",
+      support: "24/7 Support",
+      supportDesc: "Our support team is always ready to help",
+      payment: "Multiple Methods",
+      paymentDesc: "Support Cpay, Stripe and many payment gateways",
+    },
+    // Services
+    services: {
+      title: "Featured Services",
+      description: "Choose from hundreds of premium services with flexible packages to suit your needs",
+      addToCart: "Add to Cart",
+      stock: "In Stock",
+      outOfStock: "Out of Stock",
+    },
+    // Cart
+    cart: {
+      title: "Shopping Cart",
+      continueShopping: "Continue Shopping",
+      empty: "Cart is empty",
+      emptyDesc: "You have no items in your cart",
+      browseServices: "Browse Services",
+      coupon: "Coupon Code",
+      couponPlaceholder: "Enter coupon code",
+      apply: "Apply",
+      subtotal: "Subtotal",
+      discount: "Discount",
+      total: "Total",
+      checkout: "Checkout",
+    },
+    // Checkout
+    checkout: {
+      title: "Confirm Payment",
+      orderSummary: "Order Summary",
+      paymentMethod: "Payment Method",
+      walletPayment: "Wallet Payment",
+      currentBalance: "Current Balance",
+      totalAmount: "Total Amount",
+      remainingBalance: "Remaining Balance",
+      insufficientBalance: "Insufficient Balance",
+      topupNow: "Top-up Now",
+      confirmPayment: "Confirm Payment",
+      processing: "Processing...",
+    },
+    // Orders
+    orders: {
+      title: "My Orders",
+      empty: "No orders yet",
+      emptyDesc: "You have no orders yet",
+      viewDetails: "View Details",
+      orderId: "Order ID",
+      orderDate: "Order Date",
+      status: {
+        pending: "Pending",
+        completed: "Completed",
+        failed: "Failed",
+        processing: "Processing",
+      },
+    },
+    // Order Detail
+    orderDetail: {
+      title: "Order Details",
+      accountInfo: "Account Information",
+      email: "Email",
+      password: "Password",
+      copySuccess: "Copied!",
+      backToOrders: "Back to Orders",
+    },
+    // My Services
+    myServices: {
+      title: "My Services",
+      empty: "No services",
+      emptyDesc: "You have no active services",
+      browseServices: "Browse Services",
+      viewCredentials: "View Credentials",
+      renew: "Renew",
+      expiresIn: "Expires in",
+      days: "days",
+      expired: "Expired",
+    },
+    // Profile
+    profile: {
+      title: "Profile",
+      personalInfo: "Personal Information",
+      fullName: "Full Name",
+      email: "Email",
+      phone: "Phone Number",
+      transactionHistory: "Transaction History",
+      noTransactions: "No transactions yet",
+    },
+    // Wallet
+    wallet: {
+      title: "Top-up",
+      balance: "Wallet Balance",
+      topup: "Top-up",
+      selectAmount: "Select Amount",
+      customAmount: "Enter custom amount",
+      paymentMethod: "Payment Method",
+      cpay: "Cpay (Vietnam)",
+      stripe: "Stripe (International)",
+      proceed: "Proceed to Top-up",
+      transactionHistory: "Transaction History",
+    },
+    // Login
+    login: {
+      title: "Login",
+      subtitle: "Sign in to access your account",
+      googleLogin: "Login with Google",
+      or: "or",
+      emailLabel: "Email",
+      passwordLabel: "Password",
+      forgotPassword: "Forgot password?",
+      noAccount: "Don't have an account?",
+      register: "Register now",
+      terms: "By logging in, you agree to our",
+      termsLink: "Terms of Service",
+      and: "and",
+      privacyLink: "Privacy Policy",
+    },
+    // Footer
+    footer: {
+      description:
+        "AccountMart - Trusted digital service account platform. Fast, automatic transactions at competitive prices.",
+      links: "Links",
+      legal: "Legal",
+      terms: "Terms of Service",
+      privacy: "Privacy Policy",
+      contact: "Contact",
+      copyright: "All rights reserved.",
+    },
+  },
+} as const
+
+export type Locale = keyof typeof translations
+export type TranslationKeys = typeof translations.vi
